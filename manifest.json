@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Co-op No Timeout",
+  "description": "Stop the engcore co-op site from signing you out.",
+  "version": "1.1",
+
+  "content_scripts": [
+    {
+      "matches": ["https://engcore.apsc.ubc.ca/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}

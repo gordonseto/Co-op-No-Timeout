@@ -3,11 +3,12 @@
 
   "name": "Co-op No Timeout",
   "description": "Stop the engcore co-op site from signing you out.",
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {
-      "matches": ["https://engcore.apsc.ubc.ca/*"],
+      "matches": ["https://engcore.apsc.ubc.ca/*",
+      				"https://pdportal.apsc.ubc.ca/*"],
       "js": ["myscript.js"]
     }
   ]
